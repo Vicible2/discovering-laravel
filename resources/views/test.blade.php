@@ -22,5 +22,6 @@
     </head>
     <body class="antialiased">
         <h1>Test Complete!</h1>
+        <img src="https://media1.tenor.com/images/31bd27ca3c44a645116e337d8e75558e/tenor.gif?itemid=16335527" alt="">
     </body>
 </html>
