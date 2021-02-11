@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+// If multiple controllers are used, try this notation:
+//use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,11 +14,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Write whole path if single controllerFunctions are used
+Route::get('/form', 'App\Http\Controllers\FormController@loadFormView');
 
-Route::get('/form', function () {
-    return view('form');
-});
-
-// Route::get('test', function() {
+// Route::get('/', function() {
 //     return view('test');
 // });
